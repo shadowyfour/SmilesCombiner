@@ -3,6 +3,9 @@ import networkx as nx
 from collections import namedtuple
 
 
+# Written by D S H, but all the heavy lifting is done by external libraries
+
+
 def networkx_graph_from_smiles(smiles_string, should_add_all_h_around_structure):
     return read_smiles(smiles_string, explicit_hydrogen=should_add_all_h_around_structure)
 
