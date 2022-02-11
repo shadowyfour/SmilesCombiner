@@ -1,5 +1,5 @@
 # SmilesCombiner
-Simple script to automatically combine SMILES structures
+Simple script to automatically combine SMILES structures. Relies on pysmiles (pip install pysmiles) and networkx (included in pysmiles). Written for Python 3.9; undefined behavior on other versions but will probably work.
 
 It looks for two files in the same directory as it, titled "structures.txt" and "subgroups.txt", which each have one SMILES per line. It performs the substitutions and outputs an "output.csv" file like the example in the repository.
 
